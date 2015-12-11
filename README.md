@@ -22,7 +22,7 @@ I also have some custom keybindings:
 * ```prefix |``` - split screen vertically
 * ```prefix _``` - split screen horizontally
 
-##### Installation
+#### Installation
 
 Install tmux.
 
@@ -54,12 +54,11 @@ As for the plugins, here's a short list:
 * ```Theme``` - Minimal - Flat version of the monokai theme.
 * ```Tmux``` - Tmux syntax highlighting.
 
-
 ### Vim
 
 I mostly use vim on remote hosts or for difficult to access files.
 As such my configuration is very basic, enabling only the most critical features as syntax highlighting, line numbers and a little cursor modification.
 
-##### Installation
+#### Installation
 
 Link ```.vimrc``` to your home directory.
