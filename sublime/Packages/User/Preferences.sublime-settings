@@ -1,0 +1,11 @@
+{
+    "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+    "font_size": 12,
+    "ignored_packages":
+    [
+        "ExtendedSwitcher",
+        "Vintage"
+    ],
+    "theme": "Minimal.sublime-theme",
+    "translate_tabs_to_spaces": true
+}
