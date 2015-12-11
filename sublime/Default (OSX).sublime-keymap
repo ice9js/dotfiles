@@ -1,0 +1,21 @@
+[
+    // Emacs key-bindings for moving around
+    // ALT + F/B for going forward/backward, add shift for selection
+    { "keys": ["alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["alt+shift+f"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+    { "keys": ["alt+shift+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+
+    { "keys": ["ctrl+alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["ctrl+alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["ctrl+alt+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+    { "keys": ["ctrl+alt+shift+b"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+
+    // Scroll view
+    { "keys": ["ctrl+alt+p"], "command": "scroll_lines", "args": {"amount": 7.0} },
+    { "keys": ["ctrl+alt+n"], "command": "scroll_lines", "args": {"amount": -7.0} },
+
+    // Toggle tabs
+    { "keys": ["super+t"], "command": "toggle_tabs"},
+    { "keys": ["super+m"], "command": "toggle_minimap"}
+]

@@ -1,0 +1,28 @@
+{
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+        "ExtendedSwitcher"
+    ],
+    "installed_packages":
+    [
+        "AdvancedNewFile",
+        "All Autocomplete",
+        "Babel",
+        "ChannelRepositoryTools",
+        "DocBlockr",
+        "Dockerfile Syntax Highlighting",
+        "HTML-CSS-JS Prettify",
+        "LESS",
+        "Monokai Extended",
+        "Package Control",
+        "PlainTasks",
+        "Rust",
+        "Sass",
+        "Slack",
+        "SublimeGit",
+        "SublimeREPL",
+        "Theme - Minimal",
+        "Tmux"
+    ]
+}
