@@ -16,6 +16,10 @@
     { "keys": ["ctrl+alt+n"], "command": "scroll_lines", "args": {"amount": -7.0} },
 
     // Toggle tabs
-    { "keys": ["super+t"], "command": "toggle_tabs"},
-    { "keys": ["super+m"], "command": "toggle_minimap"}
+    { "keys": ["super+t"], "command": "toggle_tabs" },
+    { "keys": ["super+m"], "command": "toggle_minimap" },
+
+    // Switch panes]
+    { "keys": ["ctrl+k", "ctrl+o"], "command": "focus_neighboring_group" },
+    { "keys": ["ctrl+shift+k", "ctrl+shift+o"], "command": "move_to_neighboring_group" },
 ]
