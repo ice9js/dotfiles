@@ -256,6 +256,22 @@
 	</data>
 	<key>ShouldLimitScrollback</key>
 	<integer>1</integer>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<true/>
+	<key>ShowActiveProcessInTitle</key>
+	<false/>
+	<key>ShowCommandKeyInTitle</key>
+	<false/>
+	<key>ShowDimensionsInTitle</key>
+	<false/>
+	<key>ShowRepresentedURLInTitle</key>
+	<true/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<false/>
+	<key>ShowShellCommandInTitle</key>
+	<false/>
+	<key>ShowTTYNameInTitle</key>
+	<false/>
 	<key>ShowWindowSettingsNameInTitle</key>
 	<false/>
 	<key>TextBoldColor</key>
