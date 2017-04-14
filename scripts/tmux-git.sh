@@ -12,4 +12,4 @@ cd "$1" > /dev/null
 
 # Output current git branch
 readonly gitbranch=$( git rev-parse --abbrev-ref HEAD )
-echo "  #[fg=#97E023,bg=#272822]$gitbranch "
+echo "  #[fg=#97E023,bg=#222222]$gitbranch "
