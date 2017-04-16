@@ -45,6 +45,7 @@ I use emacs-style keybindings compled with the following plugins:
 This repo also configures:
 
 - Node.js, NPM and Yarn
+- Java, Leiningen and Boot-CLJ
 - Basic .vimrc
 - Basic .gitconfig
 - Ansible

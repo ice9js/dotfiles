@@ -9,4 +9,5 @@
 ./install/git
 ./install/sublime
 ./install/node
+./install/clojure
 ./install/ansible
