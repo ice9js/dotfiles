@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AceJump",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"DocBlockr",
+		"LESS",
+		"Package Control",
+		"Sass",
+		"SublimeGit"
+	]
+}
