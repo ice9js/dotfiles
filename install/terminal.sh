@@ -14,3 +14,6 @@ ln -s $(pwd)/scripts/tmux-update-status.sh ~/.scripts/tmux-update-status.sh
 # Link tmux configuration
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
 ln -s $(pwd)/scripts/tmux-git.sh ~/.scripts/tmux-git.sh
+
+# Install cowsay & fortune just because
+brew install cowsay fortune
