@@ -9,3 +9,4 @@
 ./install/git
 ./install/sublime
 ./install/node
+./install/ansible
