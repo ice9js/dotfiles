@@ -47,6 +47,7 @@ This repo also configures:
 - Node.js, NPM and Yarn
 - Basic .vimrc
 - Basic .gitconfig
+- Ansible
 
 ## Other tools of preference
 
