@@ -1,0 +1,5 @@
+[user]
+	email = kuba.birecki@crystalplanet.io
+	name = Kuba Birecki
+[core]
+	excludesfile = /Users/kuba/.gitignore
