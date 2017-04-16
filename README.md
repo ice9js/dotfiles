@@ -13,7 +13,7 @@
 
 ### Terminal
 
-![Terminal](https://cloud.githubusercontent.com/assets/8056203/11749011/84c34646-a02b-11e5-8887-84c69cbca96a.png)
+![Terminal](https://cloud.githubusercontent.com/assets/8056203/25073396/2702c916-22e6-11e7-9842-646315f4cc2d.png)
 
 I currently use **Tmux** in combination with **zsh**. As you can see, my prompt is very minimalistic and I keep all the information in the **Tmux** status bar.
 
