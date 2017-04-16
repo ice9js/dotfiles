@@ -1,64 +1,61 @@
-## Here be dragons
+# Dotfiles
 
-... or dotfiles, whichever you like more.
+## Setup guide
+
+1. Run `xcode-select --install` to install **Command Line Tools**.
+2. Install **Sublime Text 3**
+3. Run `./bootstrap.sh` or any of the scripts from the `install/` directory to install the configuration.  
+**Note:** *Make sure you execure the scripts from the root of the repository to avoid messing up the symlinks.*
+4. Install **InconsolataForPowerlineMod.otf** from the `fonts/` directory.
+5. Load terminal preferences from `terminal/ice9js.terminal`.
+
+## Features
 
 ### Terminal
 
-I like to keeps things clear and as such, I chose a very minimalistic approach.
-To make things a little bit more appealing, I use the Inconsolata font, which you can find in the fonts directory.
-
 ![Terminal](https://cloud.githubusercontent.com/assets/8056203/11749011/84c34646-a02b-11e5-8887-84c69cbca96a.png)
 
-I use tmux for managing multiple terminal sessions as well as its split screen capabilities.
-I a single character (```$```) as my prompt, use the status bar to display other information in the following format:
+I currently use **Tmux** in combination with **zsh**. As you can see, my prompt is very minimalistic and I keep all the information in the **Tmux** status bar.
 
-```
-session > username > location > command                  hostname
-```
+**Status bar**: Session, Username, [ Current Branch, ] Working Directory, Process, Host.
 
-I also have some custom keybindings:
+Customized key bindings for Tmux:
 
-* ```Ctrl + k``` - prefix key
-* ```prefix |``` - split screen vertically
-* ```prefix _``` - split screen horizontally
+- `Ctrl + k` - prefix key
+- `prefix |` - split screen vertically
+- `prefix _` - split screen horizontally
+- `prefix m` - enable mouse
+- `prefix M` - disable mouse
+- `prefix r` - reload configuration
 
-#### Installation
+### Sublime 
 
-Install tmux.
+Sublime Text 3 is my current editor of choice.  
+I use emacs-style keybindings compled with the following plugins:
 
-Link ```.profile``` and ```.tmux.conf``` to your home directory.
+- `AdvancedNewFile` - Allows for various operations on files from within the editor.
+- `All Autocomplete` - Shows hints based on all currently open files.
+- `DocBlockr` - Simplifies writing documentation.
+- `LESS` - LESS syntax highlighting.
+- `Sass` - Sass syntax highlighting.
+- `SublimeGit` - Git interface for Sublime Text.
 
-Install the terminal profile from ```terminal/ice9js.terminal```, and select it in terminal preferences.
+### Other
 
-### Sublime Text
+This repo also configures:
 
-Sublime Text 3 is my weapon of choice when it comes to writing code. You can find all relevant configuration files within the ```sublime/``` directory.
+- Node.js, NPM and Yarn
+- Basic .vimrc
+- Basic .gitconfig
 
-I use emacs-like keybindings for getting around files. You can find them in ```sublime/Default (OSX).sublime-keymap```.
+## Other tools of preference
 
-As for the plugins, here's a short list:
+A list of software that I use, which configuration is beyond the scope of this repository:
 
-* ```AdvancedNewFile``` - Allows for various operations on files from within the editor.
-* ```All Autocomplete``` - Shows hints based on all currently open files.
-* ```Babel``` - Syntax definitions for ES6 and React JSX.
-* ```DocBlockr``` - Simplifies writing documentation.
-* ```Dockerfile Syntax Highlighting```
-* ```LESS``` - LESS syntax highlighting.
-* ```Monokai Extended``` - Improved monokai theme.
-* ```PlainTasks``` - Advanced todo-list plugin.
-* ```Rust``` - Rust syntax highlighting.
-* ```Sass``` - Sass syntax highlighting.
-* ```Slack``` - Allows for sending messages to slack from within the editor.
-* ```SublimeGit``` - Git interface for Sublime Text.
-* ```SublimeREPL``` -
-* ```Theme``` - Minimal - Flat version of the monokai theme.
-* ```Tmux``` - Tmux syntax highlighting.
-
-### Vim
-
-I mostly use vim on remote hosts or for difficult to access files.
-As such my configuration is very basic, enabling only the most critical features as syntax highlighting, line numbers and a little cursor modification.
-
-#### Installation
-
-Link ```.vimrc``` to your home directory.
+- **Google Chrome**: Web browser.
+- **Airmail 3**: Mail client.
+- **Paste**: Clipboard manager.
+- **iA Writer**: Markdown editor.
+- **Tunnelblick**: OpenVPN interface.
+- **Docker**: Virtualization.
+- **Vagrant**: VM management.
