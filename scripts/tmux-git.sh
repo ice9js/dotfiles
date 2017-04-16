@@ -11,5 +11,10 @@ cd "$1" > /dev/null
 [[ "$?" -ne 0 ]] && exit 0
 
 # Output current git branch
-readonly gitbranch=$( git rev-parse --abbrev-ref HEAD )
+gitbranch=$( git rev-parse --abbrev-ref HEAD )
+
+if [ $gitbranch == "HEAD" ]; then
+    gitbranch=$( git rev-parse --short HEAD )
+fi
+
 echo "  #[fg=#97E023,bg=#1c1c1c]$gitbranch "
