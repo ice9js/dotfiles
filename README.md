@@ -33,12 +33,12 @@ Customized key bindings for Tmux:
 Sublime Text 3 is my current editor of choice.  
 I use emacs-style keybindings compled with the following plugins:
 
-- `AdvancedNewFile` - Allows for various operations on files from within the editor.
-- `All Autocomplete` - Shows hints based on all currently open files.
-- `DocBlockr` - Simplifies writing documentation.
-- `LESS` - LESS syntax highlighting.
-- `Sass` - Sass syntax highlighting.
-- `SublimeGit` - Git interface for Sublime Text.
+- **AdvancedNewFile** - Allows for various operations on files from within the editor.
+- **All Autocomplete** - Shows hints based on all currently open files.
+- **DocBlockr** - Simplifies writing documentation.
+- **LESS** - LESS syntax highlighting.
+- **Sass** - Sass syntax highlighting.
+- **SublimeGit** - Git interface for Sublime Text.
 
 ### Other
 
