@@ -31,8 +31,9 @@ Customized key bindings for Tmux:
 ### Sublime 
 
 Sublime Text 3 is my current editor of choice.  
-I use emacs-style keybindings compled with the following plugins:
+I use emacs-style keybindings coupled with the following plugins:
 
+- **AceJump** - Quick text navigation using keyboard shortcuts.
 - **AdvancedNewFile** - Allows for various operations on files from within the editor.
 - **All Autocomplete** - Shows hints based on all currently open files.
 - **DocBlockr** - Simplifies writing documentation.
