@@ -40,6 +40,7 @@ I use emacs-style keybindings coupled with the following plugins:
 - **LESS** - LESS syntax highlighting.
 - **Sass** - Sass syntax highlighting.
 - **SublimeGit** - Git interface for Sublime Text.
+- **SublimeSix** - Vim emulation for Sublime Text.
 
 ### Other
 
