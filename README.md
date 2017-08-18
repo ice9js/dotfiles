@@ -3,7 +3,7 @@
 ## Setup guide
 
 1. Run `xcode-select --install` to install **Command Line Tools**.
-2. Install **Sublime Text 3**
+2. Install **Sublime Text 3** with **Package Control**.
 3. Run `./bootstrap.sh` or any of the scripts from the `install/` directory to install the configuration.  
 **Note:** *Make sure you execure the scripts from the root of the repository to avoid messing up the symlinks.*
 4. Install **InconsolataForPowerlineMod.otf** from the `fonts/` directory.
