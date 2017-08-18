@@ -8,6 +8,6 @@
 ./install/vim
 ./install/git
 ./install/sublime
-./install/node
+# ./install/node - NVM is installed in the terminal section
 ./install/clojure
 ./install/ansible
