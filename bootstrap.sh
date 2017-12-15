@@ -10,5 +10,6 @@
 ./install/sublime.sh
 # ./install/node.sh - NVM is installed in the terminal section
 ./install/clojure.sh
+./install/php.sh
 ./install/ansible.sh
 ./install/vagrant.sh
