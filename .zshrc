@@ -7,6 +7,9 @@ colors
 # Shell prompt
 PS1="%F{green}%B$%b%{$reset_color%} "
 
+# Reset $WORDCHARS variable to match RegExp \w
+WORDCHARS='_'
+
 # Refresh tmux status bar
 . ~/.scripts/tmux-update-status.sh
 
