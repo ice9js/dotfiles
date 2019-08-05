@@ -19,3 +19,6 @@ WORDCHARS='_'
 # Node version management for zsh
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
+
+# Automattic dev setup
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
