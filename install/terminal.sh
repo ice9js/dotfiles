@@ -4,6 +4,9 @@
 brew install zsh zsh-completions
 brew install tmux
 
+# Install tmux plugin manager
+git clone git@github.com:tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Create a directory for scripts
 mkdir -p ~/.scripts
 
@@ -20,3 +23,6 @@ brew install cowsay fortune
 
 # Install nvm
 brew install nvm
+
+# Install wget
+brew install wget
