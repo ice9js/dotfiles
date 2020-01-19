@@ -21,8 +21,5 @@ ln -s $(pwd)/scripts/tmux-git.sh ~/.scripts/tmux-git.sh
 # Install cowsay & fortune just because
 brew install cowsay fortune
 
-# Install nvm
-brew install nvm
-
 # Install wget
 brew install wget
