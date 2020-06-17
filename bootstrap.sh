@@ -8,6 +8,7 @@
 ./install/vim.sh
 ./install/git.sh
 ./install/sublime.sh
+./install/gcc.sh
 ./install/node.sh
 ./install/clojure.sh
 ./install/php.sh
