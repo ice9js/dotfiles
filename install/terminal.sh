@@ -18,8 +18,14 @@ ln -s $(pwd)/scripts/tmux-update-status.sh ~/.scripts/tmux-update-status.sh
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
 ln -s $(pwd)/scripts/tmux-git.sh ~/.scripts/tmux-git.sh
 
+# Link handy zsh functions
+ln -s $(pwd)/scripts/automattic.sh ~/.scripts/automattic.sh
+
 # Install cowsay & fortune just because
 brew install cowsay fortune
 
 # Install wget
 brew install wget
+
+# Install tree
+brew install tree
