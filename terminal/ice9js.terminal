@@ -216,7 +216,7 @@
 	AAAAAAAAAAAAAA3m
 	</data>
 	<key>CommandString</key>
-	<string>/usr/local/bin/tmux attach-session</string>
+	<string>/opt/homebrew/bin/tmux attach-session</string>
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
