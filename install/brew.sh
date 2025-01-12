@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Install brew to install future packages with
-
-ruby <(curl -fsSk https://raw.githubusercontent.com/Homebrew/install/master/install)
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
 brew upgrade

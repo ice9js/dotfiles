@@ -3,6 +3,9 @@
 # This scripts configures the machine by running
 # all scripts from the install/ directory.
 
+# Temporarily add brew to $PATH manually, before ZSH is set up
+export PATH=/opt/homebrew/bin:$PATH
+
 ./install/brew.sh
 ./install/terminal.sh
 ./install/vim.sh
