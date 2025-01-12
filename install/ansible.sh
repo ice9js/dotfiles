@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Install Ansible
-brew install --cask ansible
+pip3 install ansible
