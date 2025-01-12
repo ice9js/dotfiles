@@ -1,7 +1,7 @@
 # Zsh Config
 
 # Update path
-export PATH=~/.composer/vendor/bin:$PATH
+export PATH=~/.composer/vendor/bin:/opt/homebrew/bin:$PATH
 
 # Enable colors
 autoload -U colors
