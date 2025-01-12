@@ -12,5 +12,5 @@
 ./install/node.sh
 ./install/clojure.sh
 ./install/php.sh
+./install/rust.sh
 ./install/ansible.sh
-./install/vagrant.sh
