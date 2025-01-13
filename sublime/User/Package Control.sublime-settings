@@ -6,16 +6,18 @@
 	"installed_packages":
 	[
 		"AceJump",
-		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
+		"Devicetree DTS Highlighting",
 		"DocBlockr",
-		"EDN",
-		"Jade",
-		"LESS",
-		"Naomi",
+		"Dockerfile Syntax Highlighting",
+		"Elm Syntax Highlighting",
+		"Monokai Pro",
 		"Package Control",
 		"Sass",
-		"SublimeGit"
-	]
+		"SublimeGit",
+		"Theme - Monokai Pro",
+		"TOML",
+		"Twig",
+	],
 }

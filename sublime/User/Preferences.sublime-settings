@@ -16,14 +16,14 @@
 		"*.zip",
 		"node_modules/**"
 	],
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
 	"font_face": "Fira Code",
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Naomi",
-		"Vintage"
+		"Vintage",
 	],
-	"theme": "Default.sublime-theme",
-	"scroll_past_end": true
+	"theme": "Monokai Pro (Filter Spectrum).sublime-theme",
+	"scroll_past_end": true,
+	"index_files": true,
 }
