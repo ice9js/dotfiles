@@ -17,4 +17,4 @@ if [ $gitbranch == "HEAD" ]; then
     gitbranch=$( git rev-parse --short HEAD )
 fi
 
-echo "  #[fg=#97E023,bg=#1c1c1c]$gitbranch "
+echo "  #[fg=green,bg=black]$gitbranch "
